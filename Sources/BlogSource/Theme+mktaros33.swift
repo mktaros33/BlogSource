@@ -223,8 +223,10 @@ private struct SiteFooter: Component {
     var body: Component {
         Footer {
             Paragraph {
-                Text("Generated using ")
+                Text("Powered by ")
                 Link("Publish", url: "https://github.com/johnsundell/publish")
+                Text(" & ")
+                Link("Plot", url: "https://github.com/johnsundell/plot")
             }
         }
     }
