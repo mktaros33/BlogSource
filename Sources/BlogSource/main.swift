@@ -26,7 +26,6 @@ try BlogSource().publish(using: [
     .addMarkdownFiles(),
     .copyResources(),
     .generateHTML(withTheme: .mktaros33),
-    .generateRSSFeed(including: [.posts]),
     .generateSiteMap(),
     .deploy(using: .gitHub("mktaros33/mktaros33.github.io", useSSH: false))
 ])

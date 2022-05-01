@@ -101,7 +101,7 @@ a {
 }
 
 .tag-list {
-    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .tag-list li,
@@ -163,11 +163,11 @@ footer {
 
 @media(max-width: 600px) {
     .wrapper {
-        padding: 40px 20px;
+        padding: 20px;
     }
     
     header .wrapper {
-        padding: 10px;
+        padding: 16px;
         margin-left: 10px
     }
 }
