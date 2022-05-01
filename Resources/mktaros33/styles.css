@@ -165,4 +165,8 @@ footer {
     .wrapper {
         padding: 40px 20px;
     }
+    
+    header .wrapper {
+        padding: 15px;
+    }
 }
